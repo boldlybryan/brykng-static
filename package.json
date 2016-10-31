@@ -16,6 +16,6 @@
     "gulp-minify-css": "^1.2.4",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
-    "kingcss": "^0.2.0"
+    "kingcss": "^0.3.0"
   }
 }
