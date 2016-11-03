@@ -64,23 +64,25 @@
   <section id="contact" class="bg-black text-white p5">
     <h2 class="text-center">Let's Chat!</h2>
     <p class="text-center mb3">Fill out the form below and I'll get back to you ASAP!</p>
-    <form action="#" class="max-xl center-lg mb5">
+    <form action="https://formspree.io/bpking15@gmail.com" class="max-xl center-lg mb5">
       <fieldset class="border-none m0 p0 pr2-lg whole one-third-lg left-lg">
         <label class="inline-block mb1">Full name</label>
-        <input class="mb3 p2 text-md whole" type="text">
+        <input class="mb3 p2 text-md whole" type="text" name="Full name">
       </fieldset>
       <fieldset class="border-none m0 p0 px2-lg whole one-third-lg left-lg">
         <label class="inline-block mb1">Email Address</label>
-        <input class="mb3 p2 text-md whole" type="text">
+        <input class="mb3 p2 text-md whole" type="text" name="_replyto">
       </fieldset>
       <fieldset class="border-none m0 p0 pl2-lg whole one-third-lg left-lg">
         <label class="inline-block mb1">Organization</label>
-        <input class="mb3 p2 text-md whole" type="text">
+        <input class="mb3 p2 text-md whole" type="text" name="Organization">
       </fieldset>
       <fieldset class="border-none p0 whole">
         <label class="inline-block mb1">Message</label>
-        <textarea class="block whole mb3 p2 text-md"></textarea>
+        <textarea class="block whole mb3 p2 text-md" name="Message"></textarea>
       </fieldset>
+	<input type="text" name="_gotcha" class="hide">
+      <input type="hidden" name="_next" value="thanks.html">
       <button type="submit" class="block center text-md text-white bg-black border border-white py2 px5">Send</button>
     </form>
     <footer class="pt5">
